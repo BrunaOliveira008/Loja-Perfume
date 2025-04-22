@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="perfume.css">
+    <link href="https://fonts.cdnfonts.com/css/plush-trial" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bacasime-antique" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/encode-sans-sc" rel="stylesheet">   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Perfume</title>
+</head>
+<body>
+
+    <header>
+        <h1 style="display: inline;">Parfum Charmant</h1>
+        <input type="text" id="pesquisa" placeholder="Pesquisar">
+        <div id="icones">
+            <img src="img/carrinho.png" alt="" width="30px">
+            <img src="img/perfil.png" alt="" width="30px">
+        </div>
+    </header>
+    
+    <main> 
+        
+        <a href="index.html"><button class="btn">❮ Voltar</button></a> 
+        
+        <div class="div-perfume">
+            <div id="perfumes-container"></div>
+        </div>
+    <div id="calcularFrete">
+        <label for="">Insira seu CEP!</label>
+        <div>
+        <input type="number" min="1" id="inputCEP" placeholder="Calcular Frete.">
+        <button onclick="pegarCep()">Calcular</button></div>
+        <p id="frete">R$</p>
+        <a href="https://www.canva.com/design/DAGjA_Q_8b0/_DxBFRZmt0FSjt5gbcxmQA/edit?utm_content=DAGjA_Q_8b0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><button>Veja o valor dos fretes</button></a>
+    </div>
+
+</main>
+
+<footer>
+    <hr>
+    <div>
+        <p>&copy; 2025 Perfum Charmant. Todos os direitos reservados.</p>
+    </div>
+</footer>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
